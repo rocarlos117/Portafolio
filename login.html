@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/login.css">
+		<meta charset="utf-8">
+	<title>Login</title>
+</head>
+<body>
+<center>
+<form class="cuadro">
+<img src="imagenes/fondo.png" class="fondo" style="position:relative">
+<img src="imagenes/login.png" class="logo" style="position:absolute">
+
+<h3 class="IniciarSesion" style="position:relative">Iniciar Sesión</h3>
+
+<label class="celdaCorreo" for="correo" required></label>
+<br>
+<input id="correo" type="email" class="CorreoC" placeholder="     Correo" style="position:relative">
+<br>
+
+<label class="celdaContraseña" for="contraseña"></label>
+<br>
+<input id="contraseña" type="password" class="ContraseñaC" placeholder="     Contraseña" style="position:relative"required>
+<br>
+
+<br>
+<label class="etiqueta" for="check" style="position:relative"> recordar datos</label>
+<br>
+<input id="check" type="checkbox" class="Check" style="position:relative" >
+<br>
+
+<button type="button" id="IniciarSesion" class="BotonIniciarSesion" style="position:relative" onclick="function validar">Iniciar sesión</button>
+<button type="button" id="Registrar" class="BotonRegistrar" style="position:relative">Crear una cuenta</button>
+
+
+</form>
+</center>
+
+<script src="login.js"></script>
+
+</body>
+</html>
