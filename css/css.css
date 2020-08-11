@@ -1,0 +1,44 @@
+*{
+  margin: 0;/*margen*/
+  padding: 0;/*quita un espacio determinado*/
+}
+h1{
+  color: red;/*color*/
+}
+.papa{
+  width: 90%;/*ancho de un cuadro o una imagen*/
+  margin: auto;/*margen automatico*/
+  border: 1px solid red;/*borde*/
+  height: auto;/*largo de un cuadro o una imagen*/
+  display: flex;/*hace la pagina flexible para cualquier pantalla*/
+}
+.hijo1{
+  width: 100%;/*ancho de un cuadro o una imagen*/
+  height: 400px;/*largo de un cuadro o una imagen*/
+  background-color: green;/*color de fondo*/
+}
+.hijo2{
+  width: 100%;/*ancho de un cuadro o una imagen*/
+  height: 400px;/*largo de un cuadro o una imagen*/
+  background-color: blue;/*color de fondo*/
+}
+@media only screen and (max-width:767px)/*propiedad de responsive*/{
+  .papa{
+    width: 90%;/*ancho de un cuadro o una imagen*/
+    margin: auto;/*margen automatico*/
+    border: 1px solid red;/*borde*/
+    height: auto;/*largo de un cuadro o una imagen*/
+    display: flex;/*hace la pagina flexible para cualquier pantalla*/
+    flex-direction: column;/*ORDENA DE IZQUIERA A DERECHA*/
+  }
+  .hijo1{
+    width: 100%;/*ancho de un cuadro o una imagen*/
+    height: 400px;/*largo de un cuadro o una imagen*/
+    background-color: palevavioletred;/*color de fondo*/
+  }
+  .hijo2{
+    width: 50%;/*ancho de un cuadro o una imagen*/
+    height: 400%;/*largo de un cuadro o una imagen*/
+    background-color: charset;/*color de fondo*/
+  }
+}

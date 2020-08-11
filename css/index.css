@@ -1,0 +1,303 @@
+/*Caracteristicas de la pagina*/
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+}
+/*Determina las caracteristicas del header*/
+header{
+  width: 100%;
+  height: 100px;
+
+background: repeating-linear-gradient(-17deg, black , blue 34px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*Forma y tamaño del logo (Caracteristicas)*/
+.Logo{
+width: 80px;
+height: 80px;
+border-radius: 100%;
+margin-top: 10px;
+margin-left: 20px;
+}
+/*Determina las caracteristicas del titulo*/
+.Rocar{
+  margin-top: 20px;
+  margin-left:10px;
+  font-size: 350%;
+  color: black;
+  font-family: 'Patua One', cursive;
+  text-shadow: 2px 2px red;
+}
+/*Hara flexible al menu*/
+.CajaLogo{
+  display: flex;
+  flex-direction: row;
+}
+/*Tamaño y posición del menu*/
+.CajaDeBotones{
+  height: 20px;
+  width: auto;
+  margin-top: 40px;
+  margin-right: 200px;
+
+display: flex;
+}
+/*Hace al menu flexible*/
+.CajaDeBotones ul{
+  display:flex;
+  list-style:none;
+}
+/*Caracteristicas del menu*/
+.CajaDeBotones ul li{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: 1px solid black;
+  color: red;
+  background-color: black;
+  font-family: 'Patua One', cursive;
+}
+/*efecto en menu*/
+.CajaDeBotones ul li:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  transform: rotateX(20deg);
+  transform: rotateY(20deg);
+  transform: rotateZ(20deg);
+}
+/*Determina el tamaño de la pagina*/
+.Pagina{
+  width: 100%;
+  height: 557px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /*Propiedades y caracteristicas de la pagina*/
+.fondo{
+ width: 100%;
+ background-color: aqua;
+
+ position: relative;
+ display: inline-block;
+ text-align: center;
+}
+/*forma, tamaño y hubicacion del cuadro 1*/
+.cuadroI{
+  width: 30%;
+  height: 400px;
+  background-color: black;
+  margin-left: 35px;
+  margin-top: 70px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*Caracteristicas de la imagen del cuadro 1*/
+.cuadroI img{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  color: red;
+  font-family: 'Cabin', sans-serif;
+}
+/*informacion del cuadro 1*/
+.InfoP{
+  margin-top: 7px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*forma, tamaño y hubicacion del cuadro 2*/
+.cuadroII{
+  width: 30%;
+  height: 400px;
+  background-color: black;
+  margin-left: 470px;
+  margin-top: -400px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*Caracteristicas de la imagen del cuadro 2*/
+.cuadroII img{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px
+}
+/*informacion del cuadro 2*/
+.InfoP{
+  margin-top: 7px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*forma, tamaño y hubicacion del cuadro 3*/
+.cuadroIII{
+  width: 30%;
+  height: 400px;
+  background-color: black;
+  margin-left: 930px;
+  margin-top: -400px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*Caracteristicas de la imagen del cuadro 3*/
+.cuadroIII img{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px
+}
+/*informacion del cuadro 3*/
+.InfoP{
+  margin-top: 7px;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*tamaño y forma del footer*/
+footer{
+  width: 100%;
+  height: 60px;
+  background:black;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+/*imagenes del footer*/
+footer img{
+  margin-top:9px;
+  width: 35px;
+  height: 35px;
+}
+/*hubicacion y tamaño de los botones*/
+.CajaBotones{
+  height: 20px;
+  margin-top: 5px;
+  width: auto;
+  display: flex;
+}
+/*hace los botones flexibles*/
+.CajaBotones ul{
+  display:flex;
+  list-style:none;
+}
+/*estructura de botones*/
+.CajaBotones ul li{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  color: black;
+  background-color:#A60202;
+  font-family: 'Patua One', cursive;
+}
+
+@media only screen and (max-width:767px){
+  header{
+    width: 100%;/*ancho*/
+    height: 140px;/*largo*/
+  }
+  .Logo{
+  width: 60px;/*ancho*/
+  height: 60px;/*largo*/
+  border-radius: 100%;/**/
+  margin-top: 10px;/*determina el largo y ancho*/
+  margin-left: 100px;/**/
+  }
+  .CajaDeBotones{
+  height: 10px;/*largo*/
+  width: 10px;/*ancho*/
+  margin-top: 75px;/*determina el largo y ancho*/
+  margin-left: -900%;
+  }
+  .CajaDeBotones ul{
+    display:flex;
+    list-style:none;
+    margin-left: -117px;
+  }
+  .CajaDeBotones ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid black;
+    color: red;
+    background-color: black;
+    font-family: 'Patua One', cursive;
+  }
+  .Rocar{
+    margin-top: 20px;/*determina el largo y ancho*/
+    margin-left:10px;/**/
+    font-size: 35px;/**/
+  }
+  .Pagina{
+    width: 100%;/*ancho*/
+    height: auto;/*largo*/
+    display: flex;/*hace la pagina flexible para cualquier pantalla*/
+    flex-direction: column;/**/
+    justify-content: space-between;/**/
+  }
+  .cuadroI{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+  }
+  .cuadroII{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .cuadroIII{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .CajaBotones{
+    height: 20px;
+    margin-top: 16px;
+    width: 20px;
+    display: flex;
+  }
+  /*hace los botones flexibles*/
+  .CajaBotones ul{
+    display:flex;
+    list-style:none;
+  }
+  /*estructura de botones*/
+  .CajaBotones ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color:#A60202;
+    font-family: 'Patua One', cursive;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    background: repeating-linear-gradient(-17deg, black , blue 34px);
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display: flex;
+    flex-direction: row;
+  }
+  footer img{
+    margin-top:7px;
+    width: 35px;
+    height: 35px;
+  }
+}

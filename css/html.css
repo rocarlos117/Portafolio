@@ -1,0 +1,343 @@
+/*Caracteristicas de la pagina*/
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+/*Determina las caracteristicas del header*/
+header{
+  width: 100%;
+  height: 100px;
+
+background: repeating-linear-gradient(-17deg, black , blue 34px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*Forma y tamaño del logo (Caracteristicas)*/
+.Logo{
+width: 80px;
+height: 80px;
+border-radius: 100%;
+margin-top: 10px;
+margin-left: 20px;
+}
+/*Determina las caracteristicas del titulo*/
+.Titulo{
+  margin-top: 20px;
+  margin-left:10px;
+  font-size: 350%;
+  color: white;
+  font-family: 'Patua One', cursive;
+  text-shadow: 4px 4px black;
+}
+/*Hara flexible al menu*/
+.CajaLogo{
+  display: flex;
+  flex-direction: row;
+}
+/*Tamaño y posición del menu*/
+.CajaDeBotones{
+  height: 20px;
+  width: auto;
+  margin-top: 40px;
+  margin-right: 200px;
+display: flex;
+}
+/*Hace al menu flexible*/
+.CajaDeBotones ul{
+  display:flex;
+  list-style:none;
+}
+/*Caracteristicas del menu*/
+.CajaDeBotones ul li{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: 1px solid black;
+  color: red;
+  background-color: black;
+  font-family: 'Patua One', cursive;
+}
+/*efecto de sombra en menu*/
+.CajaDeBotones ul li:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  transform: rotateX(20deg);
+  transform: rotateY(20deg);
+  transform: rotateZ(20deg);
+}
+/*Determina el tamaño de la pagina*/
+.Page{
+  width: 100%;
+  height: 717px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /*Propiedades y caracteristicas de la pagina*/
+.fondo{
+ width: 100%;
+ background-color: aqua;
+ position: relative;
+ display: inline-block;
+ text-align: center;
+}
+/*forma, tamaño y hubicacion del cuadro 1*/
+.C1{
+  width: 250px;
+  height: 200px;
+  margin-top: 40px;
+  margin-left: 50px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C1 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 2*/
+.C2{
+  width: 250px;
+  height: 200px;
+  margin-left: 350px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C2 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 3*/
+.C3{
+  width: 250px;
+  height: 200px;
+  margin-left: 650px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C3 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 4*/
+.C4{
+  width: 250px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 960px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C4 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 5*/
+.C5{
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C5 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 6*/
+.C6{
+  width: 250px;
+  height: 200px;
+  margin-left: 350px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C6 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 7*/
+.C7{
+  width: 250px;
+  height: 200px;
+  margin-left: 650px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C7 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 8*/
+.C8{
+  width: 250px;
+  height: 200px;
+  margin-left: 960px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C8 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 8*/
+.C9{
+  width: 250px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 30px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C9 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 8*/
+.C10{
+  width: 250px;
+  height: 200px;
+  margin-left: 350px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C10 img:hover{
+  transform: scale(1.2);
+}
+/*forma, tamaño y hubicacion del cuadro 8*/
+.C11{
+  width: 250px;
+  height: 200px;
+  margin-left: 650px;
+  margin-top: -200px;
+  transition: 1s;
+  box-shadow: 2px 2px 4px  black;
+}
+/*efecto de la imagen*/
+.C11 img:hover{
+  transform: scale(1.2);
+}
+@media only screen and (max-width:767px){
+  header{
+    width: 100%;/*ancho*/
+    height: 140px;/*largo*/
+  }
+  .Logo{
+  width: 60px;/*ancho*/
+  height: 60px;/*largo*/
+  border-radius: 100%;/**/
+  margin-top: 10px;/*determina el largo y ancho*/
+  margin-left: 100px;/**/
+  }
+  .CajaDeBotones{
+  height: 10px;/*largo*/
+  width: 10px;/*ancho*/
+  margin-top: 75px;/*determina el largo y ancho*/
+  margin-left: -900%;
+  }
+  .CajaDeBotones ul{
+    display:flex;
+    list-style:none;
+    margin-left: -117px;
+  }
+  .CajaDeBotones ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid black;
+    color: red;
+    background-color: black;
+    font-family: 'Patua One', cursive;
+  }
+  .Titulo{
+    margin-top: 20px;/*determina el largo y ancho*/
+    margin-left:10px;/**/
+    font-size: 35px;/**/
+  }
+  .Page{
+    width: 100%;/*ancho*/
+    height: auto;/*largo*/
+    display: flex;/*hace la pagina flexible para cualquier pantalla*/
+    flex-direction: column;/**/
+    justify-content: space-between;/**/
+  }
+  .C1{
+      width: 70%;/*ancho*/
+      height: auto;/*largo*/
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+  .C2{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C3{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C4{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C5{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C6{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C7{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C8{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C9{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C10{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .C11{
+    width: 70%;/*ancho*/
+    height: auto;/*largo*/
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}

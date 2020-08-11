@@ -1,0 +1,85 @@
+*{
+  margin: 0;/*quita el margen predeterminado*/
+  padding: 0;/*ordena de izquierda a derecha*/
+}
+.section-index{
+display:-webkit-flex;/*llama a galerias de google*/
+display:-ms-flexbox;/*llama a galerias de google*/
+display: flex;/*hace la pagina flexible para cualquier pantalla*/
+flex-direction: row;/*ORDENA DE IZQUIERA A DERECHA*/
+width: 90%;/*ancho de un cuadro o una imagen*/
+height: 500px;/*largo de un cuadro o una imagen*/
+margin: auto;/*margen automatico*/
+background-color: #615772;/*color de fondo*/
+justify-content: center;/*justifica el contenido y lo centra*/
+}
+@media only screen and (max-width:767px)/*propiedad de responsive*/{
+.section-index{
+  width: 90%;/*ancho de un cuadro o una imagen*/
+}
+}
+.precio-1{
+  width: 300px;/*ancho de un cuadro o una imagen*/
+  height: 350px;/*largo de un cuadro o una imagen*/
+  background-color: #fefbec;/*color de fondo*/
+  margin-top: 75px;/*determina el largo y ancho del margen del cuadro*/
+  margin-left: 50px;/*determina el largo y ancho del margen del cuadro, el lado izquierdo*/
+  border-radius: 3px;/*radio de los cuadros*/
+
+  display:-webkit-flex;/*llama a galerias de google*/
+  display:-ms-flexbox;/*llama a galerias de google*/
+  display: flex;/*hace la pagina flexible para cualquier pantalla*/
+  flex-direction: column;/*ORDENA DE IZQUIERA A DERECHA*/
+  text-align: center;/*alinia el texto al centro*/
+}
+.separacion{
+  margin-left: 20px;/*determina el largo y ancho del margen del cuadro, el lado izquierdo*/
+  margin-right: 20px;/*determina el largo y ancho del margen del cuadro, el lado derecho*/
+}
+.precio{
+  font-family:cursive;/*a que tipo de letra pertenece*/
+  font-size: 60px;/*letras*/
+  color: black;/*color*/
+  margin-top: 10px;/*determina el largo y ancho del margen del cuadro*/
+  border-radius:/*radio del borde*/
+}
+
+.plan{
+  font-family: fantasy;/*que tipo de letra pertenece*/
+  font-size: 40px;/*letra de texto*/
+  color: black;/*color*/
+  margin-top: 25px;/*determina el largo y ancho del margen del cuadro*/
+}
+
+.titulo{
+  font-family:cursive;/*a que familia de texto pertenence*/
+  font-size: 25px;/*texto*/
+  color: black;/*color*/
+  margin-top: 25px;/*determina el largo y ancho del margen del cuadro*/
+}
+.descripción{
+  font-family:cursive;/*a que famiolia de texto pertenece*/
+  font-size: 15px;/*letras*/
+  color: black;/*color*/
+  margin-top: 15px;/*determina el largo y ancho del margen del cuadro*/
+}
+.precio-1 a{
+  text-decoration: none;/*decoracion de un texto*/
+}
+.botón{
+  background-color: #aeeae8;/*color del fondo*/
+  padding-top: 20px;/*quita un espacio determinado*/
+  padding-bottom: 20px;/*quita un espacio determinado*/
+  margin-top: 12px;/*determina el largo y ancho del margen del cuadro*/
+
+  font-family:cursive;/*a que tipo de letra pertenece*/
+  font-size: 25px;/*letras de un texto*/
+  color: white;/*color*/
+  margin-top: 15px;/*determina el largo y ancho del margen del cuadro*/
+}
+.section-index article:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);/*coordenadas de hubicación*/
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);/*coordenadas de hubicación*/
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);/*coordenadas de hubicación*/
+  background-color: blue;/*color del fondo*/
+}

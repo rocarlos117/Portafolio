@@ -1,0 +1,53 @@
+
+
+/*el selector * indica las propiedades
+ * iniciales de cada elemento */
+*{
+  margin: 0;/*margen*/
+  padding: 0;/*quita un espacio determinado */
+  text-decoration: 0;/*decoracion del texto*/
+  font-family: fantasy;/*tipo de letra al que pertenece*/
+}
+/*la clase dv1 es el cuerpo de nuesta pagina*/
+.dv1{
+width: 80%;/*ancho de un cuadro o una imagen*/
+height: 650px;/*largo de un cuadro o imagen*/
+border: 1px solid black;/*borde*/
+margin: auto;/*determina el largo y ancho del margen del cuadro, que sea automatico*/
+}
+/*la clase dv4 es el */
+.dv4{
+width: 100%;/*ancho de un cuadro o una imagen*/
+height: 80px;/*largo de un cuadro o imagen*/
+margin-top: 0;/*determina el largo y ancho del margen del cuadro*/
+position: fixed;/*posicion de un objeto*/
+background-color: red;/*color del fondo*/
+}
+/*la clase de texto es el caontenido de la pagina*/
+.texto{
+  width: 400px;/*ancho de un cuadro o una imagen*/
+  height: 400px;/*largo de un cuadro o imagen*/
+  border: 2px solid green;/**/
+  position: relative;/*posicion de un objeto*/
+  margin-top: 100px;/*determina el largo y ancho del margen del cuadro*/
+  margin-left: 50px;/*determina el largo y ancho del margen del cuadro y el lado en el que se margina*/
+  padding: 10px;/*quita un espacio determinado*/
+}
+.texto p{
+  text-align: justify;/*alinia un texto*/
+}
+.hermano{
+  width: 200px;/*ancho de un cuadro o una imagen*/
+  height: 200px;/*ancho de un cuadro o una imagen*/
+  background-color: yellow;/*color del fondo*/
+}
+.dv1 div {
+  float:left;/*crea un objeto flotante, en este caso a la izquierda*/
+  margin-top:100px;/*determina el largo y ancho del margen del cuadro*/
+  margin-left: 10px;/*determina el largo y ancho del margen del cuadro y el lado en el que se margina*/
+}
+.cuadro{
+  width: 100px;/*ancho de un cuadro o una imagen*/
+  height: 200px;/*largo de un cuadro o una imagen*/
+  background-color: black;/*color del fondo*/
+}

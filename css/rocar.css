@@ -1,0 +1,159 @@
+*{
+margin: 0px;/*margen*/
+padding: 0px;/*quita un espacio determinado*/
+text-decoration: none;/*decoracion en el texto*/
+}
+header{
+  width: 100%;/*ancho de la pagina*/
+  height: 100px;/*largo la pagina*/
+  background-color: blue;
+
+  display: flex;/*hace la pagina flexible para cualquier pantalla*/
+  flex-direction: row;/*ordena de izquierda a derecha*/
+  justify-content: space-between;/*justifica el contenido*/
+}
+.sectionIndex{
+  width: 80%;/*ancho*/
+  height: 550px;/*largo*/
+  background-color: ;/*fondo de color*/
+
+  display: flex;/*hace la pagina flexible para cualquier pantalla*/
+  flex-direction: row;/*ordena de izquierda a derecha*/
+  justify-content: space-between;/*justifica el contenido*/
+}
+.art_1{
+  width: 60%;/*ancho*/
+  height: 500px;/*largo*/
+}
+.art_1 img{
+  width: 100%;/*ancho*/
+}
+.red_global{
+  text-align: center;/*alinia el texto al centro*/
+  margin-top: 20px;/*determina el largo y ancho*/
+}
+.des_global{
+  text-align: justify;/*alinia el texto y lo justifica*/
+  padding-left: 5px;/*quita un espacio hacia la izquierda*/
+  padding-right: 5px;/*quita un espacio hacia la derecha*/
+  column-count: 2;/*coloca el texto en dos columnas*/
+}
+.art_2{
+  width: 40%;/*ancho*/
+  height: 500px;/*largo*/
+}
+.art_2 img{
+  width: 100%;/*ancho*/
+  height: 190px;/*largo*/
+}
+.hackers{
+  text-align: center;/*alinea el texto al centro*/
+  margin-top: 20px;/*determina el largo y ancho*/
+}
+.des_hackers{
+  text-align: justify;/*alinea el texto y lo justifica*/
+  padding-left: 5px;/*quita un espacio hacia la izquierda*/
+  padding-right: 5px;/*quita un espacio hacia la derecha*/
+  column-count: 2;/*coloca el texto en dos columnas*/
+}
+.Logo{
+width: 80px;/*ancho*/
+height: 80px;/*largo*/
+border-radius: 100%;/**/
+margin-top: 10px;/*determina el largo y ancho*/
+margin-left: 20px;/**/
+}
+.Rocar{
+  margin-top: 30px;/*determina el largo y ancho*/
+  margin-left:10px;/**/
+}
+.CajaLogo{
+  display: flex;/*hace la pagina flexible para cualquier pantalla*/
+  flex-direction: row;/*ordena de izquierda a derecha*/
+}
+.CajaDeBotones{
+height: 20px;/*largo*/
+width: auto;/*ancho*/
+margin-top: 40px;/*determina el largo y ancho*/
+margin-right: 200px;/**/
+
+display: flex;/*hace la pagina flexible para cualquier pantalla*/
+}
+.CajaDeBotones ul{
+  display:flex;/*hace la pagina flexible para cualquier pantalla*/
+  list-style:none;/**/
+}
+.CajaDeBotones ul li{
+  padding-left: 15px;/**/
+  padding-right: 15px;/**/
+  padding-top: 10px;/**/
+  padding-bottom: 10px;/**/
+  border: 1px solid black;/**/
+  color: purple;/*determina el color*/
+  background-color: black;
+}
+.CajaDeBotones ul li:hover{/*efecto de sombra en menu*/
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.menu_img{
+  width: 40px;/*ancho*/
+  height: 40px;/*largo*/
+  display: none;/*hace la pagina flexible para cualquier pantalla*/
+}
+@media only screen and (max-width:767px){
+  header{
+    width: 100%;/*ancho*/
+    height: 65px;/*largo*/
+ }
+  .CajaDeBotones{
+  height: auto;/*largo*/
+  width: auto;/*ancho*/
+  margin-top: 10px;/*determina el largo y ancho*/
+  margin-right: 0px;/**/
+
+  display: flex;/**/
+  }
+  .menu_img{
+    width: 40px;/*ancho*/
+    height: 40px;/*largo*/
+    display: flex;/*hace la pagina flexible para cualquier pantalla*/
+  }
+  .Logo{
+  width: 50px;/*ancho*/
+  height: 50px;/*largo*/
+  border-radius: 100%;/**/
+  margin-top: 10px;/*determina el largo y ancho*/
+  margin-left: 20px;/**/
+  }
+  .Rocar{
+    margin-top: 20px;/*determina el largo y ancho*/
+    margin-left:10px;/**/
+    font-size: 25px;/**/
+
+  }
+  .sectionIndex{
+    width: 90%;/*ancho*/
+    height: auto;/*largo*/
+
+
+    display: flex;/*hace la pagina flexible para cualquier pantalla*/
+    flex-direction: column;/**/
+    justify-content: space-between;/**/
+  }
+  .art_1{
+    width: 100%;/*ancho*/
+    height: auto;/*largo*/
+  }
+  .art_2{
+    width: 100%;/*ancho*/
+    height: 500px;/*largo*/
+
+  }
+  .CajaDeBotones ul{
+    display:none;/*hace la pagina flexible para cualquier pantalla*/
+    list-style:none;/**/
+
+  }
+}

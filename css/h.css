@@ -1,0 +1,27 @@
+*{
+  margin: 0;/*margen*/
+  padding: 0;/*qita un espacio determinado*/
+}
+header{
+display:-webkit-flex;/*llama a galerias de google*/
+display:-ms-flexbox;/*llama a galerias de google*/
+display: flex;/*hace la pagina flexible para cualquier pantalla*/
+flex-direction: column;/*ORDENA DE IZQUIERA A DERECHA*/
+width: 100%;/*ancho de un cuadro o una imagen*/
+height: 120px;/*largo de un cuadro o una imagen*/
+background-color:#f38181;/*color de fondo*/
+}
+.titulo{
+  color: white;/*color*/
+  font-family: 'Roboto', sans-serif;/*tipo de letra*/
+  font-size: 30px;/*para textos*/
+  margin: auto;/*margen automatico*/
+}
+.redes-sociales{
+  width: 100%;/*ancho de un cuadro o una imagen*/
+  height: 40px;/*largo de un cuadro o una imagen*/
+  background-color: aqua;/*color de fondo*/
+}
+.redes-sociales img{
+width: 35px;/*ancho de un cuadro o una imagen*/
+}

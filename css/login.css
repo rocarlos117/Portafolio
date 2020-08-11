@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.cuadro{
+height: 425px;
+width: 300px;
+margin-top: 100px;
+}
+.fondo{
+  height: 425px;
+  width: 300px;
+  margin-left: -100px;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: -200px;
+}
+.IniciarSesion{
+  margin-top: -280px;
+  height: 30px;
+  width: 160px;
+  margin-left: -100px;
+  color: #14A6AC;
+}
+.CorreoC{
+  height: 30px;
+  width: 255px;
+  margin-left: -100px;
+  margin-top: -100px;
+  color: #0E4C57;
+}
+.ContraseñaC{
+  height: 30px;
+  width: 255px;
+  margin-left: -100px;
+  top: -5px;
+  color: #0E4C57;
+}
+.Check{
+  height: 20px;
+  width: 20px;
+  margin-left: -330px;
+  top: -20px;
+background-color: #41A48F;
+}
+.check{
+  background-color: #41A48F;
+}
+.etiqueta{
+  font-size: 15px;
+  margin-left: -200px;
+  top: -4px;
+  color: white;
+}
+.BotonIniciarSesion{
+  height: 40px;
+  width: 90px;
+  margin-left: 60px;
+  top: -50px;
+  background-color: #0E4C57;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #0E4C57;
+  font-size: 15px;
+}
+.BotonRegistrar{
+  height: 40px;
+  width: 150px;
+  margin-left: 40px;
+  top: -1px;
+  background-color: inherit;
+  color: #FFFFD3;
+  font-size: 15px;
+  border:  inherit;
+}

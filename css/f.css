@@ -1,0 +1,14 @@
+*{
+  margin: 0;/*margen*/
+  padding: 0;/*quita un espacio determinado*/
+}
+footer{
+display:-webkit-flex;/*llama a galerias de google*/
+display:-ms-flexbox;/*llama a galerias de google*/
+display: flex;/*hace la pagina flexible para cualquier pantalla*/
+flex-direction: row;/*ORDENA DE IZQUIERA A DERECHA*/
+width: 100%;/*ancho de un cuadro o una imagen*/
+height: 40px;/*largo de un cuadro o una imagen*/
+background: chocolate;/*color de fondo*/
+
+}
